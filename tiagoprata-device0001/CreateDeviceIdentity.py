@@ -3,7 +3,9 @@ import iothub_service_client
 from iothub_service_client import IoTHubRegistryManager, IoTHubRegistryManagerAuthMethod
 from iothub_service_client import IoTHubDeviceStatus, IoTHubError
 
-CONNECTION_STRING = "[IoTHub Connection String]"
+import safeData as sd
+
+CONNECTION_STRING = sd.Service_ConnString
 DEVICE_ID = "MyFirstPythonDevice"
 
 def print_device_info(title, iothub_device):
