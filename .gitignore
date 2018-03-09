@@ -1,4 +1,4 @@
 .vscode/*
 
-tiagoprata-device0001/safeData.py
-tiagoprata-device0001/__pycache__/*
+tiagoprata-device0001/python/safeData.py
+tiagoprata-device0001/python/__pycache__/*
