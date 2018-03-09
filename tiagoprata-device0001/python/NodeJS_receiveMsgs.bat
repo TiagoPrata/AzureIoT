@@ -1,0 +1,1 @@
+iothub-explorer monitor-events MyFirstPythonDevice --login "[IoTHub connection string]"
